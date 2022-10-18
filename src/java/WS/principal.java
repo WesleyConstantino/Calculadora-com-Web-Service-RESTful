@@ -55,7 +55,7 @@ public class principal {
     
     
 //Método para fazer operaçõeas de multiplicação
-
+    //O mesmo link do método de soma, porém mudamos "soma/" para "multiplicacao/"
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("multiplicacao/{N1}/{N2}")
