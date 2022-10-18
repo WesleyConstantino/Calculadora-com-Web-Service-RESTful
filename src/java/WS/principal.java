@@ -70,6 +70,8 @@ public class principal {
         double div = n1 / n2;
         return "Divisao "+ n1 +" / "+ n2 + " = " + div; 
     }
+    
+    
 
     /**
      * PUT method for updating or creating an instance of principal
