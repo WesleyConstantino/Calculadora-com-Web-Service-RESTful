@@ -45,6 +45,7 @@ public class principal {
     
     
 //Método para fazer operaçõeas de subitração
+    //O mesmo link do método de soma, porém mudamos "soma/" para "subitração/"
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("subitracao/{N1}/{N2}")
