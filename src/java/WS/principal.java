@@ -33,6 +33,8 @@ public class principal {
 
 
 //Método para fazer operaçõeas de soma
+    //Link para acessar no browser "http://localhost:8080/calculadora/webresources/operacao/soma/2/3"
+    //Faz a soma de dois números inteiros passados após "soma/"
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("soma/{N1}/{N2}")
@@ -53,8 +55,7 @@ public class principal {
     
     
 //Método para fazer operaçõeas de multiplicação
-//Link para acessar no browser "http://localhost:8080/calculadora/webresources/operacao/soma/2/3"
-//Faz a soma de dois números inteiros passados após "soma/"
+
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("multiplicacao/{N1}/{N2}")
