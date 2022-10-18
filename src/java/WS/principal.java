@@ -51,6 +51,8 @@ public class principal {
         return "Subitracao "+ n1 +" - "+ n2 + " = " + sub; 
     }
     
+    
+//Método para fazer operaçõeas de multiplicação
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("multiplicacao/{N1}/{N2}")
