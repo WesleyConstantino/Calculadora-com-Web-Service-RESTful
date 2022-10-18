@@ -32,7 +32,7 @@ public class principal {
     }
 
 
-
+//Método para fazer operaçõeas de soma
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("soma/{N1}/{N2}")
