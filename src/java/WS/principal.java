@@ -65,6 +65,7 @@ public class principal {
     
     
  //Método para fazer operaçõeas de divisão
+ //O mesmo link do método de soma, porém mudamos "soma/" para "divisao/"
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("divisao/{N1}/{N2}")
