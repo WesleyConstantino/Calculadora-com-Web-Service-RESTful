@@ -61,6 +61,8 @@ public class principal {
         return "Multiplicacao "+ n1 +" * "+ n2 + " = " + mult; 
     }
     
+    
+ //Método para fazer operaçõeas de divisão
     @GET
     @Produces(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     @Path("divisao/{N1}/{N2}")
