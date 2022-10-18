@@ -78,10 +78,6 @@ public class principal {
     
     
 
-    /**
-     * PUT method for updating or creating an instance of principal
-     * @param content representation for the resource
-     */
     @PUT
     @Consumes(javax.ws.rs.core.MediaType.TEXT_PLAIN)
     public void putText(String content) {
